@@ -1,0 +1,47 @@
+{
+  "tenants": [
+    {
+      "id": "t_acme",
+      "name": "Acme",
+      "slug": "acme",
+      "plan": "free"
+    },
+    {
+      "id": "t_globex",
+      "name": "Globex",
+      "slug": "globex",
+      "plan": "free"
+    }
+  ],
+  "users": [
+    {
+      "id": "u_admin_acme",
+      "email": "admin@acme.test",
+      "password": "$2b$12$yS5MvUElv829kmR.Rxo3VOSQF.dxS6FgtPzo3Ew8j11jCaE89kbuq",
+      "role": "Admin",
+      "tenantId": "t_acme"
+    },
+    {
+      "id": "u_user_acme",
+      "email": "user@acme.test",
+      "password": "$2b$12$yS5MvUElv829kmR.Rxo3VOSQF.dxS6FgtPzo3Ew8j11jCaE89kbuq",
+      "role": "Member",
+      "tenantId": "t_acme"
+    },
+    {
+      "id": "u_admin_globex",
+      "email": "admin@globex.test",
+      "password": "$2b$12$yS5MvUElv829kmR.Rxo3VOSQF.dxS6FgtPzo3Ew8j11jCaE89kbuq",
+      "role": "Admin",
+      "tenantId": "t_globex"
+    },
+    {
+      "id": "u_user_globex",
+      "email": "user@globex.test",
+      "password": "$2b$12$yS5MvUElv829kmR.Rxo3VOSQF.dxS6FgtPzo3Ew8j11jCaE89kbuq",
+      "role": "Member",
+      "tenantId": "t_globex"
+    }
+  ],
+  "notes": []
+}
