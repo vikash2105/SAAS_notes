@@ -24,4 +24,3 @@ export default function handler(req, res) {
   const token = signToken(user, tenant);
   return res.json({ token });
 }
-
